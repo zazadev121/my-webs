@@ -157,6 +157,7 @@ a {
   .fa-bars {
     color: black;
     cursor: pointer;
+    margin-top: 10px;
   }
 
   ul {
@@ -253,4 +254,16 @@ a {
   color: rgb(10, 7, 7);
   transition: 0.7s;
   cursor: pointer;
+}
+
+.maindiv {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book-img {
+  width: 100%;
+  height: auto;
 }
